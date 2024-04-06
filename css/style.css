@@ -1,0 +1,320 @@
+
+/* nav */
+.bg-myNav{
+    background-color: rgba(0, 0, 0, 0.888);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+
+
+
+
+
+/* home */
+.home{
+    background-image: url('../images/hero-bg.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+.homeLayer{
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.layerContent{
+    color: white;
+    text-align: center;
+}
+h1{
+    font-size: 65px;
+}
+.typingClass::after{
+content: "";
+animation-name: typingskill;
+animation-duration: 7s;
+animation-iteration-count: infinite;
+}
+
+@keyframes typingskill{
+    0%{ content : "|"}
+    2%{content:"D|"}
+    4%{content:"De|"}
+    6%{content:"Dev|"}
+    8%{content:"Deve|"}
+    10%{content:"Devel|"}
+    12%{content:"Develo|"}
+    14%{content:"Develop|"}
+    16%{content:"Develope|"}
+    18%{content:"Developer|"}
+    30%{content:"Developer|"}
+    32%{content:"Develope|"}
+    34%{content:"Develop|"}
+    36%{content:"Develo|"}
+    38%{content:"Devel|"}
+    40%{content:"Deve|"}
+    42%{content:"Dev|"}
+    44%{content:"De|"}
+    46%{content:"D|"}
+    48%{content:"|"}
+    54%{content:"D|"}
+    56%{content:"De|"}
+    58%{content:"Des|"}
+    60%{content:"Desi|"}
+    62%{content:"Desig|"}
+    64%{content:"Design|"}
+    66%{content:"Designe|"}
+    72%{content:"Designer|"}
+    74%{content:"Designe|"}
+    76%{content:"Design|"}
+    78%{content:"Desig|"}
+    80%{content:"Desi|"}
+    82%{content:"Des|"}
+    84%{content:"De|"}
+    86%{content:"D|"}
+    88%{content:"|"}
+    100%{content:"|"}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ?========aabout====== */
+.about{
+    background-color: #f5f5f5;
+}
+.skillItem p{
+margin: 0;
+padding: 0;
+}
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.about-title{
+    font-size: 2rem;
+}
+h2::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -6px;
+    left: 0;
+}
+/* services */
+.service-box {
+    background-color: #fff;
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+/* .service-box:hover .ico-circle {
+    transition: all 500ms ease;
+    color: #fff;
+    background-color: #0078ff;
+    box-shadow: 0 0 0 10px #cde1f8;
+} */
+.service-box .service-ico {
+    margin-bottom: 1rem;
+    color: #1e1e1e;
+}
+.service-box .ico-circle {
+    transition: all 500ms ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.service-box .ico-circle i {
+    line-height: 0;
+    font-size: 40px;
+}
+.service-box .s-title {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.4rem 0;
+}
+
+.service-box .s-description {
+    color: #4e4e4e;
+}
+/* carousel */
+.carouselpart{
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.carousellayer{
+    background-color: rgba(0, 0, 266, 0.6);
+}
+.carousel-indicators{
+    top:90%;
+}
+.carousel-indicators [data-bs-target]{
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* portfolio */
+.card{
+    border: 0px;
+    margin-top: 40px;
+}
+.card-body-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.portfolio .card:hover img{
+    transform: scale(1.2,1.2);
+}
+
+.card img {
+    transition: transform 1s ease-in-out;
+}
+.card-img{
+    overflow: hidden;
+}
+.line{
+    width: 100px;
+    height: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+/* & blog */
+
+.card-body {
+    position: relative;
+}
+.card .card-category-box {
+    position: absolute !important;
+    text-align: center;
+    top: -16px;
+    left: 15px;
+    right: 15px;
+    line-height: 25px;
+    overflow: hidden;
+}
+.card .card-category {
+    display: inline-block;
+    color: #fff;
+    padding: 0 15px 5px;
+    overflow: hidden;
+    background-color: #0078ff;
+    border-radius: 4px;
+}
+.card .card-category .category {
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    letter-spacing: 0.1px;
+    margin-bottom: 0;
+  }
+
+
+
+
+
+
+
+
+
+  /* contact us */
+.contact-us{
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.contact-layer{
+    background-color: rgba(0, 0, 266, 0.6);
+}
+
+.icon-circle {
+    /* height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 6px #0078ff; */
+    height: 100px;
+    width: 100px;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 3px #0078ff;
+    /* display: block; */
+}
+
+
+
+
+
+
+
+
+
+/* footer */
+.footer{
+    background-color: #0078ff;
+}
